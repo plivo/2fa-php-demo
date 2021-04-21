@@ -9,19 +9,19 @@ In other languages:
 <table>
    <tr>
       <td>.Net</td>
-      <td><a href="https://github.com/plivo-dev/2FA_Csharp">Done</a></td>
+      <td><a href="https://github.com/plivo/2FA_Csharp">Done</a></td>
    </tr>
    <tr>
       <td>Ruby</td>
-      <td><a href="https://github.com/plivo-dev/2FA_SinatraApp">Done</a></td>
+      <td><a href="https://github.com/plivo/2FA_SinatraApp">Done</a></td>
    </tr>
    <tr>
       <td>NodeJS</td>
-      <td><a href="https://github.com/plivo-dev/2FA_ExpressApp">Done</a></td>
+      <td><a href="https://github.com/plivo/2FA_ExpressApp">Done</a></td>
    </tr>
    <tr>
       <td>Python</td>
-      <td><a href="https://github.com/plivo-dev/2FA_FlaskApp">Done</a></td>
+      <td><a href="https://github.com/plivo/2FA_FlaskApp">Done</a></td>
    </tr>
 </table>
 
