@@ -1,0 +1,6 @@
+{
+    "require": {
+        "plivo/plivo-php": "4.17.0",
+        "predis/predis": "^1.1"
+    }
+}

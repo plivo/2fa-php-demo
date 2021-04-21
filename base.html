@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <title>2FA: PHP Example</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="/public/normalize.css">
+      <link rel="stylesheet" href="/public/foundation.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.css">
+      <link rel="stylesheet" href="/public/main.css">
+      <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput-jquery.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"></script>
+   </head>
+   <body>
+      <div id="wrapper">
+      <section class="header-menu">
+         <div class="content">
+            <div class="menu split--5050">
+               <div class="logo">
+                  <a href="https://www.plivo.com/" data-title-cache="/" title="/"><img src="/public/img/logo.svg" alt="Plivo" title="Plivo"></a>
+               </div>
+               <div class="menu-buttons">
+                  <ul class="list-menu">
+                     <li><a href="https://console.plivo.com/accounts/login/">Login</a></li>
+                     <li><a href="https://console.plivo.com/accounts/register/">SIGN UP</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="content">
+            <div class="split--5050">
+               <div class="demo-content">
+                  <h1>Two Factor Authentication Demo</h1>
+                  <h2>Getting Started with Two Factor Authentication :</h2>
+                  <div class="progress-list">
+                     <ul class="events">
+                     <li>Step 1: Get OTP on your mobile phone via SMS</li>
+                     <li>Step 2: Verify the OTP</li>
+                     <li>Step 3: Verification Status</li>
+                  </div>
+                  <img class="content-img" src="/public/img/two-factor-authentication-demo-hero-unit.svg" />
+               </div>
+               <div class="form-section">
+                  <div class="box">
+                     <div class="user"><img src="/public/img/two-factor-user-unit.svg" /></div>
+                     <div class="progress-bar">
+                        <div class="progress-step-1 progress-bar-fill"></div>
+                        <div class="progress-step-2"></div>
+                        <div class="progress-step-3"></div>
+                     </div>
+                     <div class="space-42"></div>
+                     <div class="form-section">
+                        <form action="/start" method="post">
+                           <div class="box-1">
+                              <label>Mobile phone</label>
+                              <input type="tel" id="phone" class="phone-number" />
+                              <input class="btn btn-success full-width phone-number-verify-button" type="button" value="Send Verification Code" />
+                           </div>
+                           <div class="d-none box-2">
+                              <div class="flex-box"><label>Enter the verification code &nbsp</label><span id="counter"></span></div>
+                              <input type="text" class="verification-code" placeholder="Enter the code from SMS" />
+                              <label class="error-text d-none">Invalid OTP</label>
+                              <input class="btn btn-success full-width verification-code-check-button" type="button" value="Verify"/>
+                              <a class="return d-none call-me"  style ="text-align:left; color:#2bb031" href="#">Didn't receive sms? Call me</a>
+                              <div class="return d-none expired-return">
+                                 <div class="space-21"></div>
+                                 <a href="#">Return to demo</a>
+                              </div>
+                           </div>
+                           <div class="box-3 d-none">
+                              <img class="verfied-tick" src="/public/img/ic_verified.svg" />
+                              <div class="verified">verified!</div>
+                              <div class="space-10"></div>
+                              <div class="text">Your phone number has been verified.</div>
+                              <div class="space-21"></div>
+                              <div class="return"><a href="#">Return to demo</a></div>
+                              <div class="space-10"></div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="footer-content split--3070">
+            <div class="footer-copyright">Copyright © Plivo Inc</div>
+            <div class="footer-menu">
+               <ul>
+                  <li><a href="https://www.plivo.com/sms/">Messaging API</a></li>
+                  <li><a href="https://www.plivo.com/voice/">Voice API</a></li>
+                  <li><a href="https://www.plivo.com/docs/">Developers</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+      <script type="text/javascript" src="/public/main.js"></script>
+   </body>
+</html>
