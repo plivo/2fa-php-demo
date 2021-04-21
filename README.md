@@ -8,20 +8,20 @@ This example shows how [Plivo APIs](http://plivo.com/api) can be used to integra
 In other languages:
 <table>
    <tr>
-      <td>.Net</td>
-      <td><a href="https://github.com/plivo/2FA_Csharp">Done</a></td>
-   </tr>
-   <tr>
-      <td>Ruby</td>
-      <td><a href="https://github.com/plivo/2FA_SinatraApp">Done</a></td>
-   </tr>
-   <tr>
-      <td>NodeJS</td>
-      <td><a href="https://github.com/plivo/2FA_ExpressApp">Done</a></td>
+      <td>Node.js</td>
+      <td><a href="https://github.com/plivo/2fa-node-demo">Done</a></td>
    </tr>
    <tr>
       <td>Python</td>
-      <td><a href="https://github.com/plivo/2FA_FlaskApp">Done</a></td>
+      <td><a href="https://github.com/plivo/2fa-python-demo">Done</a></td>
+   </tr>
+   <tr>
+      <td>Ruby</td>
+      <td><a href="https://github.com/plivo/2fa-ruby-demo">Done</a></td>
+   </tr>
+   <tr>
+      <td>.NET</td>
+      <td><a href="https://github.com/plivo/2fa-dotnet-demo">Done</a></td>
    </tr>
 </table>
 
@@ -41,9 +41,9 @@ This application verifies your phone number using the two factor authentication 
     ```shell
     git clone git@github.com:plivo/2fa-php-demo.git    
     ```
-2. Change your working directory to 2FA_PHP
+2. Change your working directory to 2fa-php-demo
     ```shell
-    cd 2FA_PHP
+    cd 2fa-php-demo
     ```
 3. Install the dependencies using the composer.json file. You can use the below command.
     ```shell
