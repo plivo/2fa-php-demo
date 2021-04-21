@@ -39,7 +39,7 @@ This application verifies your phone number using the two factor authentication 
 
 1. Clone this repo.
     ```shell
-    git clone git@github.com:plivo-dev/2FA_PHP.git    
+    git clone git@github.com:plivo/2fa-php-demo.git    
     ```
 2. Change your working directory to 2FA_PHP
     ```shell
